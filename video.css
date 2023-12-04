@@ -1,0 +1,30 @@
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 14px;
+  row-gap: 40px;
+}
+.video-preview{
+  vertical-align: top;
+}
+.thumbnail-row{
+  margin-bottom: 12px;
+}
+.thumbnail{
+  width: 100%;
+}
+.video-info-grid{
+  display:grid;
+  grid-template-columns: 50px 1fr;
+}
+.channel-picture{
+  width: 40px;
+  border-radius: 50px;
+  margin-top: 12px;
+}
+.video-info{
+  font-size: 14px;
+}
+.video-creator{
+  margin-bottom: 4px;
+}
